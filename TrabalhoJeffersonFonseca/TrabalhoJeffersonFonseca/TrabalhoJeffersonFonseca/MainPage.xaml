@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TrabalhoJeffersonFonseca"
+             x:Class="TrabalhoJeffersonFonseca.MainPage"
+             BackgroundColor="#2196F3">
+
+    <StackLayout>
+        <Label Text="Jefferson Fonseca Hudyma" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+           TextColor="White"/>
+        <StackLayout>
+            <Button
+                Text="Pagina"
+                Clicked="OnButton1Clicked"/>
+            <Button
+                x:Name="Button2"
+                Text="Imagem"
+                Clicked="OnButton2Clicked"/>
+            <Button
+                x:Name="Button3"
+                Text="Mensagem"
+                Clicked="OnButton3Clicked"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
